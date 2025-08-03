@@ -1,6 +1,4 @@
-1Password/
-nats/
-raycast/
-karabiner/
-op/
-tmux/plugins/
+.luarc.json
+fish_variables
+tmux/.config/tmux/plugins
+lazy-lock.json
