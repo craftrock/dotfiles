@@ -17,6 +17,8 @@ return {
         hl.WhichKeyBorder = hl.FloatBorder
         hl.FzfLuaBorder = hl.FloatBorder
         hl.FzfLuaPreviewBorder = hl.FloatBorder
+
+        hl["@string.go"] = { fg = c.violet500 }
       end,
     },
   },
