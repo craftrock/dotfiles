@@ -1,12 +1,12 @@
-command = /opt/homebrew/bin/fish --login --interactive
+command = /usr/bin/fish --login --interactive
 
 title = " "
 
-font-size = 22
-font-family = "JetBrainsMono NFM Medium"
-font-family-bold = "JetBrainsMono NFM SemiBold"
-font-family-italic = "JetBrainsMono NFM Medium Italic"
-font-family-bold-italic = "JetBrainsMono NFM SemiBold Italic"
+font-size = 16
+font-family = "JetBrainsMono Nerd Font Medium"
+font-family-bold = "JetBrainsMono Nerd Font SemiBold"
+font-family-italic = "JetBrainsMono Nerd Font Medium Italic"
+font-family-bold-italic = "JetBrainsMono Nerd Font SemiBold Italic"
 
 cursor-style = block
 
@@ -21,3 +21,5 @@ shell-integration-features = no-cursor
 
 macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
+
+custom-shader = shaders/cursor_blaze.glsl

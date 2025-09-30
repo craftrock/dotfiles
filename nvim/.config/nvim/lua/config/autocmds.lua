@@ -17,15 +17,3 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.expandtab = false -- Use actual tabs (Go convention)
   end,
 })
-
---- C-specific indentation settings
-vim.api.nvim_create_autocmd("FileType", {
-  pattern = "c",
-  callback = function()
-    print("C FileType autocmd triggered!") -- Debug line
-    vim.opt_local.tabstop = 4 -- Number of spaces a tab counts for
-    vim.opt_local.shiftwidth = 4 -- Number of spaces for each indentation level
-    vim.opt_local.softtabstop = 4 -- Number of spaces for tab in insert mode
-    vim.opt_local.expandtab = false -- Use actual tabs (Go convention)
-  end,
-})
