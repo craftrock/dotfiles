@@ -8,6 +8,7 @@ return {
       styles = {
         sidebars = "transparent",
         floats = "transparent",
+        keywords = { italic = false },
       },
       on_highlights = function(hl, c)
         hl.FloatBorder = {
