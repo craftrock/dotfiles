@@ -12,7 +12,7 @@ cursor-style = block
 
 mouse-hide-while-typing = true
 
-theme = "Matte Black"
+theme = "Solarized Dark Patched"
 background-opacity = 0.9
 background-blur = 20
 
@@ -22,4 +22,4 @@ shell-integration-features = no-cursor
 macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
 
-custom-shader = shaders/cursor_blaze.glsl
+custom-shader = shaders/cursor_warp.glsl
