@@ -12,7 +12,7 @@ cursor-style = block
 
 mouse-hide-while-typing = true
 
-theme = "Solarized Dark Patched"
+theme = "Catppuccin Latte"
 background-opacity = 0.9
 background-blur = 20
 
