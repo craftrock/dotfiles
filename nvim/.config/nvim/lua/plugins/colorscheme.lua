@@ -24,9 +24,21 @@ return {
     },
   },
   {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    opts = {
+      variant = "main",
+      styles = {
+        italic = false,
+        transparency = true,
+        bold = true,
+      },
+    },
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "solarized-osaka",
+      colorscheme = "rose-pine",
     },
   },
 }
