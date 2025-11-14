@@ -1,4 +1,4 @@
-command = /opt/homebrew/bin/fish --login --interactive
+command = /opt/homebrew/bin/nu --login --interactive
 
 title = " "
 
@@ -20,6 +20,6 @@ background-blur = 20
 macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
 
-theme = "Rose Pine"
+theme = "Builtin Solarized Dark"
 
 custom-shader = shaders/cursor_warp.glsl

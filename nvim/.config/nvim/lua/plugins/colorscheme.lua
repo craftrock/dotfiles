@@ -27,7 +27,7 @@ return {
     "rose-pine/neovim",
     name = "rose-pine",
     opts = {
-      variant = "main",
+      variant = "dawn",
       styles = {
         italic = false,
         transparency = true,
@@ -36,9 +36,18 @@ return {
     },
   },
   {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
+    opts = {
+      transparent_background = true,
+      no_italic = true,
+    },
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "solarized-osaka",
     },
   },
 }
