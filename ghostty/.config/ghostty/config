@@ -1,8 +1,8 @@
-command = /opt/homebrew/bin/nu --login --interactive
+command = /opt/homebrew/bin/fish --login --interactive
 
 title = " "
 
-font-size = 22
+font-size = 25
 font-family = "JetBrainsMono Nerd Font Medium"
 font-family-bold = "JetBrainsMono Nerd Font SemiBold"
 font-family-italic = "JetBrainsMono Nerd Font Medium Italic"
