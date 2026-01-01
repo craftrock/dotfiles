@@ -2,7 +2,7 @@ command = /usr/bin/fish --login --interactive
 
 title = " "
 
-font-size = 20
+font-size = 18
 font-family = "JetBrainsMono Nerd Font"
 font-family-bold = "JetBrainsMono Nerd Font"
 font-family-italic = "JetBrainsMono Nerd Font"
