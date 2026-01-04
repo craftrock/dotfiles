@@ -1,5 +1,8 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "theme": "solarized",
-  "autoupdate": true
+  "autoupdate": true,
+  "plugin": [
+    "oh-my-opencode"
+  ]
 }

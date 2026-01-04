@@ -1,7 +1,7 @@
 ---
 description: Helps with language learning - define words, build vocabulary, explain grammar.
 mode: primary
-model: opencode/claude-haiku-4-5
+model: google/gemini-3-flash-preview
 tools:
   webfetch: true
   bash: true
