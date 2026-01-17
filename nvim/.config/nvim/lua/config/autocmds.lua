@@ -17,3 +17,17 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.expandtab = false -- Use actual tabs (Go convention)
   end,
 })
+
+--- C/C++ indentation settings
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "c", "cpp" },
+  callback = function()
+    vim.opt_local.tabstop = 4
+    vim.opt_local.shiftwidth = 4
+    vim.opt_local.softtabstop = 4
+    vim.opt_local.expandtab = true -- Use spaces
+    vim.opt_local.cindent = true -- Use cindent instead of treesitter indent
+    vim.opt_local.indentexpr = "" -- Disable treesitter/LSP indentexpr
+    vim.opt_local.cinoptions = ":0,l1,g0" -- case labels: no extra indent, code after case indented by shiftwidth
+  end,
+})

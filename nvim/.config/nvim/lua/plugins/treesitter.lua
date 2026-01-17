@@ -1,6 +1,10 @@
 return {
   "nvim-treesitter/nvim-treesitter",
   opts = {
+    indent = {
+      enable = true,
+      disable = { "c", "cpp" }, -- Use cindent for C/C++ instead
+    },
     ensure_installed = {
       "bash",
       "diff",
