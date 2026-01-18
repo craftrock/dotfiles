@@ -26,5 +26,6 @@ macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
 
 theme = "Builtin Solarized Dark"
+background = 000000
 
 custom-shader = shaders/cursor_warp.glsl

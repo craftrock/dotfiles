@@ -10,8 +10,8 @@ return {
           layout = {
             layout = {
               position = "right",
-              width = 0.3,
-              min_width = 40,
+              width = 0.5,
+              min_width = 30,
               max_width = 60,
             },
           },

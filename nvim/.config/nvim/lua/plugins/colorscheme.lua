@@ -5,6 +5,9 @@ return {
     priority = 1000,
     opts = {
       transparent = true,
+      on_colors = function(c)
+        c.bg_statusline = "#000000"
+      end,
       styles = {
         sidebars = "transparent",
         floats = "transparent",
@@ -20,6 +23,8 @@ return {
         hl.FzfLuaPreviewBorder = hl.FloatBorder
 
         hl["@string.go"] = { fg = c.violet500 }
+
+        hl.CursorLine = { bg = "#000000" }
       end,
     },
   },
