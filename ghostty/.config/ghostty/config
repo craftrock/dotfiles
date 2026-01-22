@@ -25,7 +25,10 @@ background-blur = 20
 macos-titlebar-style = transparent
 macos-titlebar-proxy-icon = hidden
 
-theme = "Builtin Solarized Dark"
+theme = "Rose Pine"
 background = 000000
 
 custom-shader = shaders/cursor_warp.glsl
+
+# Keybinds
+keybind = ctrl+alt+p=toggle_command_palette
