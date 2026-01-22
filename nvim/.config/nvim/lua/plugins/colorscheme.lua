@@ -32,11 +32,14 @@ return {
     "rose-pine/neovim",
     name = "rose-pine",
     opts = {
-      variant = "dawn",
+      variant = "main",
       styles = {
         italic = false,
         transparency = true,
         bold = true,
+      },
+      highlight_groups = {
+        CursorLine = { bg = "#000000" },
       },
     },
   },
@@ -52,7 +55,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "solarized-osaka",
+      colorscheme = "rose-pine",
     },
   },
 }
