@@ -1,0 +1,2 @@
+extensions:
+  odin: {filename: {foreground: Yellow}, icon: {glyph: 󰟢, style: {foreground: Yellow}}}
