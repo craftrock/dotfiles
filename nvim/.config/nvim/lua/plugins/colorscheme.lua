@@ -40,16 +40,31 @@ return {
       },
       highlight_groups = {
         CursorLine = { bg = "#000000" },
+        ["@field"] = { fg = "text" },
+        ["@property"] = { fg = "text" },
+        ["@lsp.type.property"] = { fg = "text" },
+        ["@variable.member"] = { fg = "text" },
       },
     },
   },
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "scottmckendry/cyberdream.nvim",
+    name = "cyberdream",
+    lazy = false,
     priority = 1000,
     opts = {
-      transparent_background = true,
-      no_italic = true,
+      variant = "dark",
+      transparent = true,
+      hide_fillchars = true,
+      overrides = function(colors)
+        return {
+          CursorLine = { bg = "#000000" },
+          ["@keyword"] = { fg = colors.orange, italic = false },
+          ["@keyword.type"] = { fg = colors.orange, italic = false },
+          ["@type"] = { fg = colors.purple, italic = false },
+          ["@type.builtin"] = { fg = colors.purple, italic = false },
+        }
+      end,
     },
   },
   {
