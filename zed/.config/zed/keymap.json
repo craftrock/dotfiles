@@ -1,5 +1,4 @@
 [
-  // Pane Navigation - Workspace level
   {
     "context": "Workspace",
     "bindings": {
@@ -9,26 +8,23 @@
       "ctrl-l": "workspace::ActivatePaneRight",
       "alt-f": "file_finder::Toggle",
       "alt-e": "workspace::ToggleRightDock",
-      "ctrl-p": "command_palette::Toggle",
-      "ctrl-a s": "projects::OpenRecent"
-    }
+      "ctrl-alt-p": "command_palette::Toggle",
+      "ctrl-a s": "projects::OpenRecent",
+    },
   },
-  // Override vim conflicts - this is the key fix
   {
     "context": "VimControl && !menu",
     "bindings": {
-      "ctrl-j": "workspace::ActivatePaneDown"
-    }
+      "ctrl-j": "workspace::ActivatePaneDown",
+    },
   },
-  // Override Editor-level conflicts
   {
     "context": "Editor",
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
-      "ctrl-l": "workspace::ActivatePaneRight"
-    }
+      "ctrl-l": "workspace::ActivatePaneRight",
+    },
   },
-  // Vim normal mode extras
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
@@ -37,13 +33,13 @@
       "] d": "editor::GoToDiagnostic",
       "[ d": "editor::GoToPreviousDiagnostic",
       "space s s": "outline::Toggle",
-      "space s S": "project_symbols::Toggle"
-    }
+      "space s S": "project_symbols::Toggle",
+    },
   },
   {
     "context": "Editor && vim_mode == visual",
     "bindings": {
-      "ctrl-q": "zed::Quit"
-    }
-  }
+      "ctrl-q": "zed::Quit",
+    },
+  },
 ]

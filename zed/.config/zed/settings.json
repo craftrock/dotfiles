@@ -8,14 +8,45 @@
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 22,
   "buffer_font_weight": 500,
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true,
+    "dlig": true,
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss04": true,
+    "ss05": true,
+    "zero": true,
+  },
   "current_line_highlight": "none",
   "confirm_quit": true,
+  "use_system_prompts": false,
+  "show_whitespaces": "none",
+  "redact_private_values": true,
+  "expand_excerpt_lines": 2,
+  "excerpt_context_lines": 1,
+  "auto_signature_help": false,
+  "file_finder": {
+    "include_ignored": "all",
+    "modal_max_width": "large",
+  },
+  "title_bar": {
+    "show_branch_icon": true,
+    "show_menus": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "max_tabs": 9,
   "tab_bar": {
     "show": false,
   },
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false,
+    "selections_menu": true,
+    "code_actions": true,
   },
   "scrollbar": {
     "show": "never",
@@ -25,6 +56,7 @@
   },
   "project_panel": {
     "dock": "right",
+    "default_width": 300,
   },
   "inlay_hints": {
     "enabled": false,
@@ -51,9 +83,11 @@
     "min_line_number_digits": 2,
   },
   "terminal": {
+    "dock": "bottom",
+    "default_height": 500,
     "shell": {
-      "program": "fish"
-    }
+      "program": "fish",
+    },
   },
   "experimental.theme_overrides": {
     "background": "#000000",
@@ -67,9 +101,9 @@
   "lsp": {
     "gopls": {
       "binary": {
-        "path": "/home/craftrock/.local/share/mise/installs/go/1.25.6/bin/gopls"
-      }
-    }
+        "path": "/home/craftrock/.local/share/mise/installs/go/1.25.6/bin/gopls",
+      },
+    },
   },
   "languages": {
     "C": {
