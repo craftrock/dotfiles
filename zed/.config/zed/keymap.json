@@ -34,6 +34,7 @@
       "[ d": "editor::GoToPreviousDiagnostic",
       "space s s": "outline::Toggle",
       "space s S": "project_symbols::Toggle",
+      "space c r": "editor::Rename",
     },
   },
   {
